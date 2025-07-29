@@ -12,9 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'AppDatePicker Example',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      theme: ThemeData(primarySwatch: Colors.blue),
       home: const ExampleHomePage(),
     );
   }
@@ -26,9 +24,7 @@ class ExampleHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('AppDatePicker Demo'),
-      ),
+      appBar: AppBar(title: const Text('AppDatePicker Demo')),
       body: Center(
         child: AppDatePicker(
           title: 'Select Birthday:',
