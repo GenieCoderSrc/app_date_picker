@@ -29,10 +29,9 @@ class _AppDatePickerState extends State<AppDatePicker> {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    final String? initDate =
-        widget.initDate != null
-            ? '${widget.initDate!.day}-${widget.initDate!.month.toString().padLeft(2, '0')}-${widget.initDate!.year.toString().padLeft(2, '0')}'
-            : null;
+    final String? initDate = widget.initDate != null
+        ? '${widget.initDate!.day}-${widget.initDate!.month.toString().padLeft(2, '0')}-${widget.initDate!.year.toString().padLeft(2, '0')}'
+        : null;
 
     return Padding(
       padding: const EdgeInsets.all(12.0), // Replacing PaddingConstant
