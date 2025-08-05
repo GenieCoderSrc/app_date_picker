@@ -14,8 +14,8 @@ dependencies:
   flutter:
     sdk: flutter
 
-  app_style:
-    path: ../app_style
+  
+  app_style: ^0.0.4
 
   flutter_cupertino_datetime_picker: ^3.0.0
 
