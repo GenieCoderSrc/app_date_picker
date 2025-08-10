@@ -1,6 +1,6 @@
 name: app_date_picker
 description: "A simple and flexible Flutter widget that allows users to select dates with a Cupertino-style date picker. Customize date format, initial date, and confirmation text."
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/GenieCoderSrc/app_date_picker
 repository: https://github.com/GenieCoderSrc/app_date_picker
 issue_tracker: https://github.com/GenieCoderSrc/app_date_picker/issues
