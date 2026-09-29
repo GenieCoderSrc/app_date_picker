@@ -23,6 +23,8 @@ A simple, customizable Flutter widget for selecting dates using a Cupertino-styl
 Add the following to your `pubspec.yaml`:
 
 ```yaml
+resolution: workspace
+
 dependencies:
   app_date_picker: latest
 ```
