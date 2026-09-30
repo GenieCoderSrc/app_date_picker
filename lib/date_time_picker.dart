@@ -43,8 +43,7 @@ class _AppDatePickerState extends State<AppDatePicker> {
             Expanded(
               child: Text(
                 widget.title ?? "Birthday: ",
-                style:
-                    widget.titleStyle ??
+                style: widget.titleStyle ??
                     theme.textTheme.titleMedium?.copyWith(
                       fontWeight: FontWeight.bold,
                     ),
@@ -90,8 +89,7 @@ class _AppDatePickerState extends State<AppDatePicker> {
             fontSize: 16.0,
           ),
         ),
-        itemTextStyle:
-            widget.titleStyle ??
+        itemTextStyle: widget.titleStyle ??
             (theme.textTheme.titleMedium ?? const TextStyle()).copyWith(
               fontSize: 16.0,
               fontWeight: FontWeight.w500,
